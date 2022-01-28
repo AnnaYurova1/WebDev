@@ -1,12 +1,5 @@
 @import url(reset.css);
 
-body {
-	width: 1440px;
-	height: 2427px;
-	left: 0;
-	top: 0;
-	color: #FFFFFF;
-}
 header {
 	height: 200px;
 	background: #E5E000;
@@ -35,22 +28,20 @@ h1 {
 	color: #FFFFFF;
 }
 
-section img {
-	width: 1440px;
-	height: 1080px;
-
+.image-container {
+	height: 1280px;
+	background-image: url(../img/artist.png);
+	background-size: cover;
 }
 
 
 .links {
-	width: 1440px;
 	height: 100px;
 	background: #E5E000;
 }
 
 
 .mainText {
-	width: 1280px;
 	padding: 110px 80px 100px 80px;
 	font-family: Helvetica;
 	font-style: normal;
@@ -73,16 +64,20 @@ section img {
 .textTwo {
 	margin-bottom: 57px;
 }
+
 footer {
-	width: 1440px;
 	height: 200px;
 	background: #E5E000;
 }
 
+.footer-container{
+	padding: 77px 80px 77px 80px;
+}
 
 .copyright {
 	font-family: Helvetica;
 	font-size: 50px;
-	padding: 70px 80px 66px 746px;
-	text-align: right;
+	display: inline-block;
+	margin-left: 4500px;
+	color: #FFFFFF;
 }
