@@ -37,7 +37,7 @@ section {
 	text-align: left;
 }
 
-.column: last-child {
+.column:last-child {
 	margin-right: 0;
 }
 
