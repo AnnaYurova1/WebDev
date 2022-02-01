@@ -1,0 +1,91 @@
+@import url(reset.css);
+
+div {
+	height: 60px;
+	background-color: #FE1A19;
+}
+.text {
+	font-family: Helvetica;
+	font-style: normal;
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFFFFF;
+	box-sizing: border-box;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+
+
+section {
+	width: 400px;
+	height: 800px;
+	border: 5px solid #E5E000;
+	border-radius: 30px;
+	box-sizing: border-box;
+	display: inline-block;
+	
+}
+
+.listOne {
+	position: relative;
+	margin: 52px 50px 52px 70px;
+
+}
+.listTwo {
+	position: relative;
+	margin: 52px 50px 52px 20px;
+}
+.listThree {
+	position: relative;
+	margin: 52px 70px 52px 20px;
+}
+
+h2 {
+	font-family: Helvetica;
+	font-size: 20px;
+	color: #000000;
+	font-weight: bold;
+	position: absolute;
+	display: flex;
+	padding-top: 33px;
+	padding-left: 33px;
+}
+
+.nobull {
+	width: 334px;
+	height: 670px;
+	margin: 97px 33px 33px 33px;
+}
+
+.item {
+	text-transform: uppercase;
+	margin-top: 23px;
+}
+
+ul {
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 23px;
+	display: block;
+	color: #000000;
+}
+
+
+.footer-container {
+	height: 40px;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+.copy {
+
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	display: inline;
+	box-sizing: border-box;
+	color: #FFFFFF;
+}
