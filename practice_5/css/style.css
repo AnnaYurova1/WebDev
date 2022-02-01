@@ -15,7 +15,11 @@ div {
 	padding-left: 20px;
 }
 
-
+main {
+	padding-top: 52px;
+	padding-bottom: 52px;
+	text-align: center;
+}
 
 section {
 	width: 400px;
@@ -24,38 +28,31 @@ section {
 	border-radius: 30px;
 	box-sizing: border-box;
 	display: inline-block;
-	
+	padding-top: 33px;
+	padding-left: 33px;
 }
 
-.listOne {
-	position: relative;
-	margin: 52px 50px 52px 70px;
+.column {
+	margin-right: 70px;
+	text-align: left;
+}
 
+.column: last-child {
+	margin-right: 0;
 }
-.listTwo {
-	position: relative;
-	margin: 52px 50px 52px 20px;
-}
-.listThree {
-	position: relative;
-	margin: 52px 70px 52px 20px;
-}
+
 
 h2 {
 	font-family: Helvetica;
 	font-size: 20px;
 	color: #000000;
 	font-weight: bold;
-	position: absolute;
-	display: flex;
-	padding-top: 33px;
-	padding-left: 33px;
 }
 
 .nobull {
 	width: 334px;
 	height: 670px;
-	margin: 97px 33px 33px 33px;
+	margin-top: 41px;
 }
 
 .item {
@@ -79,8 +76,8 @@ ul {
 	padding-left: 20px;
 	padding-top: 20px;
 }
-.copy {
 
+.copy {
 	font-family: Helvetica;
 	font-style: normal;
 	font-weight: bold;
