@@ -3,9 +3,12 @@
 .header {
 	height: 140px;
 	background-color: #FFFFFF;
+	position: fixed;
+    z-index: 1;
+    width: 100%;
 }
 
-h1 {
+.head {
 	height: 40px;
 	font-family: Arial;
 	font-style: normal;
@@ -39,6 +42,7 @@ a {
 	position: relative;
     text-align: center;
     align-items: center;
+    padding-top: 140px;
 }
 
 .image-container {
@@ -46,6 +50,8 @@ a {
 	background-image: url(../img/evian.png);
 	background-size: cover;
 	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .text {
@@ -54,9 +60,6 @@ a {
 	font-weight: normal;
 	font-size: 100px;
 	color: #E50043;
-	position: absolute;
-	top: 50%;
-	left: 20%;
 }
 
 .description {
@@ -74,12 +77,15 @@ a {
 	height: 280px;
 	border: 3px solid #F8BFC7;
 	border-radius: 20px;
-	padding: 24px;
 	font-family: Arial;
 	font-size: 25px;
+	padding: 24px;
 	line-height: 29px;
-	letter-spacing: 0.8px;
-	color: #000000;
+}
+
+.block-flex {
+	display: flex;
+	padding: 30px;
 }
 
 .inner {
@@ -111,38 +117,19 @@ a {
 	line-height: 29px;
   }
 
-.desc {
-	padding-top: 156px;
-	padding-bottom: 150px;
-	display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-}
-
-.Text {
-	width: 1040px;
-	height: 280px;
-	border: 3px solid #F8BFC7;
-	box-sizing: border-box;
-	border-radius: 20px;
-	display: flex;
-}
-
-.Text img {
-	margin: 30px 80px;
+.description img {
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 nav {
 	display: inline;
 }
+
 .mainText {
-	font-family: Arial;
-	font-size: 25px;
-	line-height: 29px;
 	letter-spacing: 0.8px;
 	color: #000000;
-	margin: 30px 30px 30px 0;
+	margin: 30px 0;
 }
 
 .footer-container {
