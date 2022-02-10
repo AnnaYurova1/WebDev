@@ -96,12 +96,11 @@ a {
 	flex-direction: row;
 	text-align: center;
 	align-items: center;
-	margin-right: 100px;
 }
 .range {
 	margin-bottom: 42px;
 	display: flex;
-  	justify-content: center;
+  	justify-content: space-evenly;
   	flex-wrap: wrap;
 }
 .range:last-child {
