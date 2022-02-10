@@ -92,6 +92,11 @@ a {
 	margin-top: 50px;
 }
 
+.rangeContainer {
+	width: 1100px;
+	display: flex;
+    justify-content: space-between;
+}
 .container {
 	flex-direction: row;
 	text-align: center;
@@ -100,9 +105,9 @@ a {
 .range {
 	margin-bottom: 42px;
 	display: flex;
-  	justify-content: space-evenly;
-  	flex-wrap: wrap;
+  	justify-content: center;
 }
+
 .range:last-child {
 	margin-right: 0;
 }
