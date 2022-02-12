@@ -1,0 +1,86 @@
+@import url(reset.css);
+
+.header {
+	height: 160px;
+	background-color: #FFE138;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+h1 {
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	text-transform: uppercase;
+}
+
+.meta {
+	background-image: url(../img/meta.png);
+}
+
+.click {
+	background-image: url(../img/click.png);
+}
+
+.float {
+	background-image: url(../img/float.png);
+}
+
+.image {
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+	min-height: 300px;
+}
+
+.columns {
+	width: 90vw;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 70px 0;
+}
+
+.column {
+	width: calc((100% - 100px)/3);
+	border: 1px solid #000000;
+	box-sizing: border-box;
+}
+
+.text {
+	font-family: Times New Roman;
+	font-style: normal;
+	font-size: 20px;
+	line-height: 25px;
+	color: #000000;
+	padding: 30px 33px;
+}
+
+h2 {
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 25px;
+	color: #000000;
+	padding-top: 30px;
+	padding-left: 33px;
+}
+footer {
+	height: 160px;
+	background-color: #FFE138;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+.footer {
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	text-transform: uppercase;
+}
